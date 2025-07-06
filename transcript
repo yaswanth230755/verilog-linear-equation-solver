@@ -1,0 +1,39 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project PROJECT_LOGIC
+vsim -gui work.and_gate_tb
+# vsim -gui work.and_gate_tb 
+# Start time: 16:02:15 on Apr 28,2024
+# Loading work.and_gate_tb
+# Loading work.rank
+# Loading work.or_gate
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.multiplier_3_bit
+# Loading work.nand_gate
+# Loading work.adder_1_bit
+# Loading work.xor_gate
+# Loading work.subtration_6_bit
+# Loading work.multiplier_6x3_bit
+# Loading work.adder_9_bit
+# Loading work.subtration_9_bit
+# Loading work.equal_3_bit
+# Loading work.xnor_gate
+# Loading work.equal_6_bit
+# Loading work.multiplier_9x3_bit
+# Loading work.subtration_3_bit
+# Loading work.adder_12_bit
+# Loading work.equal_12_bit
+# Loading work.subtration_2_bit
+# Loading work.equal_2_bit
+# ** Warning: (vsim-3015) C:/yash/rank.v(79): [PCDPC] - Port size (6) does not match connection size (3) for port 'b'. The port definition is at: C:/yash/rank.v(652).
+#    Time: 0 ps  Iteration: 0  Instance: /and_gate_tb/xnor1/equal4 File: C:/yash/rank.v
+# ** Warning: (vsim-3015) C:/yash/rank.v(80): [PCDPC] - Port size (6) does not match connection size (3) for port 'b'. The port definition is at: C:/yash/rank.v(652).
+#    Time: 0 ps  Iteration: 0  Instance: /and_gate_tb/xnor1/equal5 File: C:/yash/rank.v
+add wave sim:/and_gate_tb/*
+run
+# a1=3,b1=0,c1=3,d1=0,a2=0,b2=3,c2=3,d2=0,a3=3,b3=3,c3=0,d4=1,y=458,y1=3,y2=3,y3=2
+# 
+# a1=3,b1=0,c1=3,d1=0,a2=0,b2=3,c2=3,d2=0,a3=0,b3=0,c3=0,d4=1,y=  0,y1=2,y2=3,y3=0
+# 
+# a1=3,b1=0,c1=3,d1=0,a2=0,b2=3,c2=3,d2=0,a3=0,b3=0,c3=0,d4=0,y=  0,y1=2,y2=2,y3=1
+# 

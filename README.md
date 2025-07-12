@@ -20,19 +20,17 @@ A comprehensive Verilog implementation of a 3x3 linear equation system solver th
 
 ## 📁 Project Structure
 
+```
+
 LinearEquationSolver/
 ├── rank.v # Main solver module
-
 ├── arithmetic_modules.v # Multipliers, adders, subtractors
-
 ├── comparison_modules.v # Equality checkers
-
 ├── basic_gates.v # Fundamental logic gates
-
 ├── testbench.v # Comprehensive test suite
-
 └── README.md
 
+```
 
 ## 🧠 Algorithm Implementation
 
@@ -47,6 +45,7 @@ det(A) = a₁₁(a₂₂a₃₃ - a₂₃a₃₂) - a₁₂(a₂₁a₃₃ - a�
 3. **Solution Classification** based on rank relationships
 
 ### Key Modules
+
 
 | Module | Function | Bit Width |
 |--------|----------|-----------|
@@ -113,28 +112,21 @@ y=27,y1=2,y2=1,y3=3
 
 
 ## 🔧 Module Hierarchy
+```
 
 rank (top-level)
-
 ├── multiplier_3_bit (×6)
-
 ├── multiplier_6x3_bit (×3)
-
 ├── multiplier_9x3_bit (×3)
-
 ├── adder_9_bit (×1)
-
 ├── subtraction_6_bit (×3)
-
 ├── subtraction_9_bit (×2)
-
 ├── equal_3_bit (×3)
-
 ├── equal_6_bit (×2)
-
 ├── equal_12_bit (×2)
-
 └── basic_gates (AND, OR, NOT, XOR, NAND)
+
+```
 
 
 ## 🎯 Key Features Implementation

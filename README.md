@@ -174,7 +174,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **[Your Name]**
-- GitHub: [yash270405](https://github.com/yash270405)
+- GitHub: [yaswanth230755](https://github.com/yaswanth230755)
 
 ## 🙏 Acknowledgments
 
